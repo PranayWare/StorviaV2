@@ -1,0 +1,5 @@
+
+> evershop@1.2.2 compile
+> rimraf ./packages/evershop/dist && cd ./packages/evershop && swc ./src/ -d dist/ --config-file .swcrc --copy-files --strip-leading-paths
+
+Successfully compiled: 1229 files, copied 375 files with swc (115.98ms)

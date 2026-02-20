@@ -1,0 +1,1292 @@
+{
+  "bin/build/client/index.js": [],
+  "bin/build/complie.js": [
+    "lib/log/logger.js",
+    "lib/webpack/prod/createConfigClient.js",
+    "lib/webpack/prod/createConfigServer.js"
+  ],
+  "bin/build/index.js": [
+    "bin/build/complie.js",
+    "bin/lib/buildEntry.js",
+    "bin/lib/loadModules.js",
+    "lib/log/logger.js",
+    "lib/router/Router.js",
+    "lib/router/loadModuleRoutes.js",
+    "lib/util/validateConfiguration.js"
+  ],
+  "bin/build/server/index.js": [],
+  "bin/build/server/useDDL.js": [],
+  "bin/build/server/useVendorChunk.js": [],
+  "bin/dev/compileTs.js": [],
+  "bin/dev/enableWatcher.js": [],
+  "bin/dev/hooks.js": [],
+  "bin/dev/register.js": [],
+  "bin/evershop.js": [
+    "bin/build/index.js",
+    "bin/install/index.js",
+    "bin/user/changePassword.js",
+    "bin/user/create.js",
+    "lib/log/logger.js"
+  ],
+  "bin/install/createMigrationTable.js": [],
+  "bin/install/index.js": [
+    "lib/log/logger.js"
+  ],
+  "bin/lib/addDefaultMiddlewareFuncs.js": [
+    "bin/lib/findRoute.js",
+    "lib/log/logger.js",
+    "lib/middlewares/publicStatic.js",
+    "lib/middlewares/themePublicStatic.js",
+    "lib/router/Router.js",
+    "lib/webpack/dev/createConfigClient.js",
+    "modules/auth/services/getAdminSessionCookieName.js",
+    "modules/auth/services/getCookieSecret.js",
+    "modules/auth/services/getFrontStoreSessionCookieName.js"
+  ],
+  "bin/lib/app.js": [
+    "bin/lib/addDefaultMiddlewareFuncs.js",
+    "bin/lib/loadModules.js",
+    "lib/log/logger.js",
+    "lib/middleware/Handler.js",
+    "lib/middleware/index.js",
+    "lib/router/Router.js",
+    "lib/router/loadModuleRoutes.js"
+  ],
+  "bin/lib/bootstrap/migrate.js": [
+    "bin/install/createMigrationTable.js",
+    "lib/log/logger.js"
+  ],
+  "bin/lib/buildEntry.js": [
+    "lib/componee/getComponentsByRoute.js",
+    "lib/log/logger.js",
+    "lib/webpack/getRouteBuildPath.js",
+    "lib/webpack/util/keyGenerator.js",
+    "lib/webpack/util/parseGraphql.js"
+  ],
+  "bin/lib/findRoute.js": [
+    "lib/router/Router.js"
+  ],
+  "bin/lib/loadModules.js": [],
+  "bin/lib/normalizePort.js": [],
+  "bin/lib/onError.js": [
+    "bin/lib/normalizePort.js",
+    "lib/log/logger.js"
+  ],
+  "bin/lib/onListening.js": [
+    "bin/lib/normalizePort.js"
+  ],
+  "bin/lib/prepare.js": [],
+  "bin/lib/startUp.js": [
+    "bin/lib/app.js",
+    "bin/lib/bootstrap/migrate.js",
+    "bin/lib/loadModules.js",
+    "bin/lib/normalizePort.js",
+    "bin/lib/onError.js",
+    "bin/lib/onListening.js",
+    "lib/log/logger.js",
+    "lib/middleware/Handler.js",
+    "lib/util/validateConfiguration.js"
+  ],
+  "bin/lib/watch/broadcast.js": [
+    "lib/router/Router.js"
+  ],
+  "bin/lib/watch/isDist.js": [],
+  "bin/lib/watch/isSrc.js": [],
+  "bin/lib/watch/processors/touch.js": [],
+  "bin/user/changePassword.js": [
+    "lib/log/logger.js"
+  ],
+  "bin/user/create.js": [
+    "lib/log/logger.js"
+  ],
+  "components/common/react/getComponents.js": [],
+  "lib/babel/config.js": [],
+  "lib/babel/index.js": [
+    "lib/babel/config.js"
+  ],
+  "lib/componee/getComponentsByRoute.js": [
+    "bin/lib/loadModules.js",
+    "lib/componee/scanForComponents.js"
+  ],
+  "lib/componee/scanForComponents.js": [],
+  "lib/componee/tests/unit/__mocks__/extensions/firstExtension/pages/frontStore/all/Banner.js": [],
+  "lib/componee/tests/unit/__mocks__/extensions/firstExtension/pages/frontStore/all/CommentList.js": [],
+  "lib/componee/tests/unit/__mocks__/extensions/firstExtension/pages/frontStore/productView/Attribute.js": [],
+  "lib/componee/tests/unit/__mocks__/extensions/firstExtension/pages/frontStore/productView/Comment.js": [],
+  "lib/componee/tests/unit/__mocks__/extensions/firstExtension/pages/frontStore/productView/Name.js": [],
+  "lib/componee/tests/unit/__mocks__/extensions/firstExtension/pages/frontStore/productView/Price.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/firstModule/pages/frontStore/all/Menu.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/firstModule/pages/frontStore/productView/Name.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/firstModule/pages/frontStore/productView/Price.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/secondModule/pages/frontStore/all/Banner.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/secondModule/pages/frontStore/productView/Description.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/secondModule/pages/frontStore/productView/Inventory.js": [],
+  "lib/componee/tests/unit/__mocks__/modules/secondModule/pages/frontStore/productView/Name.js": [],
+  "lib/componee/tests/unit/__mocks__/themes/justatheme/pages/all/CommentList.js": [],
+  "lib/componee/tests/unit/__mocks__/themes/justatheme/pages/all/Shipping.js": [],
+  "lib/componee/tests/unit/__mocks__/themes/justatheme/pages/productView/Name.js": [],
+  "lib/componee/tests/unit/__mocks__/themes/justatheme/pages/productView/OutOfStock.js": [],
+  "lib/componee/tests/unit/__mocks__/themes/justatheme/pages/productView/Price.js": [],
+  "lib/componee/tests/unit/scanRouteComponents.test.js": [
+    "lib/componee/scanForComponents.js"
+  ],
+  "lib/cronjob/tests/unit/jobManager.test.js": [],
+  "lib/event/callSubscibers.js": [
+    "lib/log/logger.js"
+  ],
+  "lib/event/event-manager.js": [
+    "bin/lib/loadModules.js",
+    "lib/event/callSubscibers.js",
+    "lib/event/loadSubscribers.js",
+    "lib/log/logger.js"
+  ],
+  "lib/event/loadSubscribers.js": [
+    "lib/log/logger.js"
+  ],
+  "lib/log/CustomColorize.js": [],
+  "lib/log/logger.js": [
+    "lib/log/CustomColorize.js"
+  ],
+  "lib/middleware/Handler.js": [
+    "lib/log/logger.js",
+    "lib/middleware/isErrorHandlerTriggered.js",
+    "lib/middleware/noDuplicateId.js",
+    "lib/middleware/parseFromFile.js",
+    "lib/middleware/sort.js",
+    "lib/router/Router.js"
+  ],
+  "lib/middleware/addMiddleware.js": [
+    "lib/middleware/Handler.js",
+    "lib/middleware/findDublicatedMiddleware.js"
+  ],
+  "lib/middleware/buildMiddlewareFunction.js": [
+    "lib/log/logger.js",
+    "lib/middleware/eNext.js",
+    "lib/middleware/isErrorHandlerTriggered.js"
+  ],
+  "lib/middleware/eNext.js": [
+    "lib/middleware/isErrorHandlerTriggered.js"
+  ],
+  "lib/middleware/findDublicatedMiddleware.js": [],
+  "lib/middleware/getRouteFromPath.js": [],
+  "lib/middleware/index.js": [
+    "lib/middleware/Handler.js",
+    "lib/middleware/addMiddleware.js",
+    "lib/middleware/scanForMiddlewareFunctions.js",
+    "lib/middleware/sort.js"
+  ],
+  "lib/middleware/isErrorHandlerTriggered.js": [],
+  "lib/middleware/isNextRequired.js": [],
+  "lib/middleware/noDuplicateId.js": [
+    "lib/middleware/findDublicatedMiddleware.js"
+  ],
+  "lib/middleware/parseFromFile.js": [
+    "lib/middleware/buildMiddlewareFunction.js",
+    "lib/middleware/getRouteFromPath.js"
+  ],
+  "lib/middleware/scanForMiddlewareFunctions.js": [
+    "lib/middleware/parseFromFile.js"
+  ],
+  "lib/middleware/sort.js": [],
+  "lib/middleware/tests/app/app.js": [
+    "bin/lib/addDefaultMiddlewareFuncs.js",
+    "lib/log/logger.js",
+    "lib/middleware/Handler.js",
+    "lib/middleware/index.js",
+    "lib/router/Router.js",
+    "lib/router/loadModuleRoutes.js"
+  ],
+  "lib/middleware/tests/app/modules/404page/pages/frontStore/product/[loadProduct]loadCategory.js": [],
+  "lib/middleware/tests/app/modules/404page/pages/frontStore/product/[loadProduct]loadProductImage.js": [],
+  "lib/middleware/tests/app/modules/404page/pages/frontStore/product/loadProduct.js": [],
+  "lib/middleware/tests/app/modules/api/api/createA/index.js": [],
+  "lib/middleware/tests/app/modules/api/api/global/apiGlobal.js": [],
+  "lib/middleware/tests/app/modules/authcopy/api/createA/[index]afterIndex.js": [],
+  "lib/middleware/tests/app/modules/authcopy/api/global/[context]auth.js": [],
+  "lib/middleware/tests/app/modules/authcopy/api/global/apiAuthGlobal.js": [],
+  "lib/middleware/tests/app/modules/authcopy/pages/global/[context]auth.js": [],
+  "lib/middleware/tests/app/modules/basecopy/api/global/[apiResponse]apiErrorHandler.js": [
+    "modules/base/api/global/[apiResponse]apiErrorHandler.js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/api/global/[auth]apiResponse[apiErrorHandler].js": [
+    "modules/base/api/global/[auth]apiResponse[apiErrorHandler].js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/api/global/[auth]payloadValidate.js": [
+    "modules/base/api/global/[auth]payloadValidate.js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/api/global/[payloadValidate]escapeHtml.js": [
+    "modules/base/api/global/[payloadValidate]escapeHtml.js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/api/global/context.js": [],
+  "lib/middleware/tests/app/modules/basecopy/pages/admin/adminStaticAsset/staticAssets.js": [
+    "modules/cms/pages/admin/adminStaticAsset/staticAssets.js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/pages/admin/all/adminTitle.js": [],
+  "lib/middleware/tests/app/modules/basecopy/pages/frontStore/all/title.js": [],
+  "lib/middleware/tests/app/modules/basecopy/pages/frontStore/staticAsset/[context]staticAssets[auth].js": [
+    "modules/cms/pages/frontStore/staticAsset/[context]staticAssets[auth].js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/pages/global/[auth]notFound[response].js": [
+    "modules/base/pages/global/[auth]notFound[response].js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/pages/global/[notFound]dummy[response].js": [],
+  "lib/middleware/tests/app/modules/basecopy/pages/global/[response]errorHandler.js": [
+    "modules/base/pages/global/[response]errorHandler.js"
+  ],
+  "lib/middleware/tests/app/modules/basecopy/pages/global/context.js": [],
+  "lib/middleware/tests/app/modules/basecopy/pages/global/response[errorHandler].js": [
+    "modules/base/pages/global/response[errorHandler].js"
+  ],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/asyncWithNext[collection].js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/async[collection].js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/collection.js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/returnOne[returnTwo].js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/returnThree[collection].js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/returnTwo[returnThree].js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/syncOne.js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/syncWithNext[collection].js": [],
+  "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/sync[collection].js": [],
+  "lib/middleware/tests/app/modules/error/pages/frontStore/errorHandlerTest/errorInAsync.js": [],
+  "lib/middleware/tests/app/modules/error/pages/frontStore/errorHandlerTest/errorInAsyncWithNext.js": [],
+  "lib/middleware/tests/app/modules/error/pages/frontStore/errorHandlerTest/errorInSync.js": [],
+  "lib/middleware/tests/app/modules/error/pages/frontStore/errorHandlerTest/errorInSyncWithNext.js": [],
+  "lib/middleware/tests/app/modules/graphqlcopy/pages/global/[bodyParser]buildQuery[graphql].js": [],
+  "lib/middleware/tests/app/modules/graphqlcopy/pages/global/[buildQuery]graphql[notFound].js": [],
+  "lib/middleware/tests/app/modules/graphqlcopy/pages/global/bodyParser[buildQuery].js": [],
+  "lib/middleware/tests/app/modules/handler/pages/admin/productEdit/[loadProduct]loadCategory.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/admin/productEdit/[loadProduct]loadProductImage.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/admin/productEdit/loadProduct.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadAttribute]loadOptions.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadProductImage]loadAttribute.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadProduct]loadCategory.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadProduct]loadProductImage.js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[syncOne,asyncOne]checkExecutionOrderAsync[loadAttribute].js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[syncOne,asyncOne]checkExecutionOrder[loadAttribute].js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/asyncOne[loadAttribute].js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/loadProduct[loadAttribute].js": [],
+  "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/syncOne[loadAttribute].js": [],
+  "lib/middleware/tests/unit/404page.handling.test.js": [
+    "lib/middleware/tests/app/app.js",
+    "lib/middleware/tests/app/modules/404page/pages/frontStore/product/[loadProduct]loadCategory.js",
+    "lib/middleware/tests/app/modules/404page/pages/frontStore/product/[loadProduct]loadProductImage.js",
+    "lib/middleware/tests/app/modules/404page/pages/frontStore/product/loadProduct.js",
+    "lib/middleware/tests/app/modules/basecopy/pages/global/[auth]notFound[response].js",
+    "lib/middleware/tests/app/modules/basecopy/pages/global/[notFound]dummy[response].js",
+    "lib/middleware/tests/app/modules/basecopy/pages/global/response[errorHandler].js"
+  ],
+  "lib/middleware/tests/unit/500error.handling.test.js": [
+    "lib/middleware/tests/app/app.js",
+    "lib/middleware/tests/app/modules/basecopy/pages/global/[response]errorHandler.js"
+  ],
+  "lib/middleware/tests/unit/apiHandler.middleware.test.js": [
+    "lib/middleware/tests/app/app.js",
+    "lib/middleware/tests/app/modules/api/api/createA/index.js",
+    "lib/middleware/tests/app/modules/api/api/global/apiGlobal.js",
+    "lib/middleware/tests/app/modules/authcopy/api/createA/[index]afterIndex.js",
+    "lib/middleware/tests/app/modules/authcopy/api/global/apiAuthGlobal.js"
+  ],
+  "lib/middleware/tests/unit/delegate.test.js": [
+    "lib/middleware/tests/app/app.js",
+    "lib/middleware/tests/app/modules/delegate/pages/frontStore/delegateTest/collection.js"
+  ],
+  "lib/middleware/tests/unit/handler.getMiddlewaresByRoute.test.js": [
+    "lib/middleware/Handler.js",
+    "lib/middleware/tests/app/app.js"
+  ],
+  "lib/middleware/tests/unit/handlers.middleware.test.js": [
+    "lib/middleware/tests/app/app.js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadAttribute]loadOptions.js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadProductImage]loadAttribute.js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadProduct]loadCategory.js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[loadProduct]loadProductImage.js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[syncOne,asyncOne]checkExecutionOrderAsync[loadAttribute].js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/[syncOne,asyncOne]checkExecutionOrder[loadAttribute].js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/asyncOne[loadAttribute].js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/loadProduct[loadAttribute].js",
+    "lib/middleware/tests/app/modules/handler/pages/frontStore/middleware/syncOne[loadAttribute].js"
+  ],
+  "lib/middleware/tests/unit/middleware.buildMiddlewareFunction.test.js": [
+    "lib/middleware/buildMiddlewareFunction.js"
+  ],
+  "lib/middleware/tests/unit/middleware.getRouteFromPath.test.js": [
+    "lib/middleware/getRouteFromPath.js"
+  ],
+  "lib/middleware/tests/unit/middleware.noDublicateId.test.js": [
+    "lib/middleware/noDuplicateId.js"
+  ],
+  "lib/middleware/tests/unit/middleware.scanForMiddlewareFunctions.test.js": [
+    "lib/middleware/noDuplicateId.js"
+  ],
+  "lib/middlewares/bodyJson.js": [],
+  "lib/middlewares/multerNone.js": [],
+  "lib/middlewares/publicStatic.js": [],
+  "lib/middlewares/static.js": [],
+  "lib/middlewares/themePublicStatic.js": [],
+  "lib/pathToRegexp.js": [],
+  "lib/response/render.js": [
+    "lib/log/logger.js",
+    "lib/router/Router.js",
+    "lib/webpack/getRouteBuildPath.js",
+    "modules/base/services/notifications.js"
+  ],
+  "lib/router/Router.js": [
+    "lib/router/sortRoutes.js"
+  ],
+  "lib/router/loadModuleRoutes.js": [
+    "lib/router/registerAdminRoute.js",
+    "lib/router/registerFrontStoreRoute.js",
+    "lib/router/scanForRoutes.js"
+  ],
+  "lib/router/registerAdminRoute.js": [
+    "lib/router/Router.js"
+  ],
+  "lib/router/registerFrontStoreRoute.js": [
+    "lib/router/Router.js"
+  ],
+  "lib/router/scanForRoutes.js": [],
+  "lib/router/sortRoutes.js": [],
+  "lib/router/tests/unit/unit.scanForRoutes.test.js": [
+    "lib/router/scanForRoutes.js"
+  ],
+  "lib/router/tests/unit/unit.validateRoute.test.js": [
+    "lib/router/registerAdminRoute.js",
+    "lib/router/scanForRoutes.js",
+    "lib/router/validateRoute.js"
+  ],
+  "lib/router/validateRoute.js": [
+    "lib/router/Router.js"
+  ],
+  "lib/util/assign.js": [],
+  "lib/util/buildFilterFromUrl.js": [],
+  "lib/util/defaultPaginationFilters.js": [],
+  "lib/util/formToJson.js": [],
+  "lib/util/merge.js": [],
+  "lib/util/tests/unit/util.assign.test.js": [
+    "lib/util/assign.js"
+  ],
+  "lib/util/tests/unit/util.get.test.js": [],
+  "lib/util/tests/unit/util.getConfig.test.js": [],
+  "lib/util/tests/unit/util.hookable.test.js": [],
+  "lib/util/tests/unit/util.merge.test.js": [
+    "lib/util/merge.js"
+  ],
+  "lib/util/tests/unit/util.registry.test.js": [],
+  "lib/util/validateConfiguration.js": [
+    "modules/base/services/getAjv.js"
+  ],
+  "lib/webpack/createBaseConfig.js": [
+    "bin/lib/loadModules.js"
+  ],
+  "lib/webpack/dev/createConfigClient.js": [
+    "lib/componee/getComponentsByRoute.js",
+    "lib/webpack/createBaseConfig.js",
+    "lib/webpack/plugins/GraphqlPlugin.js"
+  ],
+  "lib/webpack/getRouteBuildPath.js": [
+    "lib/webpack/getRouteBuildSubPath.js"
+  ],
+  "lib/webpack/getRouteBuildSubPath.js": [],
+  "lib/webpack/loaders/AreaLoader.js": [
+    "lib/log/logger.js",
+    "lib/webpack/util/keyGenerator.js"
+  ],
+  "lib/webpack/loaders/GraphQLAPILoader.js": [],
+  "lib/webpack/loaders/GraphqlLoader.js": [],
+  "lib/webpack/loaders/LayoutLoader.js": [],
+  "lib/webpack/loaders/StyleLoader.js": [],
+  "lib/webpack/loaders/TailwindLoader.js": [
+    "lib/webpack/util/getTailwindConfig.js"
+  ],
+  "lib/webpack/loaders/TranslationLoader.js": [],
+  "lib/webpack/plugins/FileListPlugin.js": [],
+  "lib/webpack/plugins/GraphqlPlugin.js": [
+    "lib/componee/getComponentsByRoute.js",
+    "lib/webpack/util/parseGraphql.js"
+  ],
+  "lib/webpack/plugins/Tailwindcss.js": [
+    "lib/log/logger.js",
+    "lib/webpack/util/getTailwindConfig.js"
+  ],
+  "lib/webpack/prod/createConfigClient.js": [
+    "lib/webpack/createBaseConfig.js",
+    "lib/webpack/getRouteBuildPath.js",
+    "lib/webpack/getRouteBuildSubPath.js",
+    "lib/webpack/plugins/Tailwindcss.js"
+  ],
+  "lib/webpack/prod/createConfigServer.js": [
+    "lib/webpack/createBaseConfig.js",
+    "lib/webpack/getRouteBuildSubPath.js"
+  ],
+  "lib/webpack/resolveAlias.js": [],
+  "lib/webpack/tests/unit/resolveAlias.test.js": [
+    "lib/webpack/resolveAlias.js"
+  ],
+  "lib/webpack/util/getTailwindConfig.js": [
+    "modules/cms/services/tailwind.admin.config.js",
+    "modules/cms/services/tailwind.frontStore.config.js"
+  ],
+  "lib/webpack/util/keyGenerator.js": [],
+  "lib/webpack/util/parseGraphql.js": [
+    "lib/webpack/util/keyGenerator.js",
+    "lib/webpack/util/parseGraphqlByFile.js"
+  ],
+  "lib/webpack/util/parseGraphqlByFile.js": [],
+  "lib/widget/tests/unit/widgetManager.test.js": [],
+  "modules/auth/api/global/[context]getCurrentUser.js": [
+    "modules/auth/services/getAdminSessionCookieName.js"
+  ],
+  "modules/auth/api/global/[getCurrentUser]auth.js": [],
+  "modules/auth/api/global/[getCurrentUser]demoAccountBlocking[auth].js": [],
+  "modules/auth/bootstrap.js": [
+    "modules/auth/services/loginUserWithEmail.js",
+    "modules/auth/services/logoutUser.js"
+  ],
+  "modules/auth/graphql/types/AdminUser/AdminUser.admin.resolvers.js": [],
+  "modules/auth/migration/Version-1.0.0.js": [],
+  "modules/auth/migration/Version-1.0.1.js": [],
+  "modules/auth/pages/admin/adminLogin/index.js": [],
+  "modules/auth/pages/admin/adminLoginJson/[bodyParser]logIn.js": [],
+  "modules/auth/pages/admin/adminLogoutJson/logout.js": [],
+  "modules/auth/pages/admin/all/[context]auth.js": [],
+  "modules/auth/services/getAdminSessionCookieName.js": [],
+  "modules/auth/services/getCookieSecret.js": [],
+  "modules/auth/services/getFrontStoreSessionCookieName.js": [],
+  "modules/auth/services/getSessionConfig.js": [],
+  "modules/auth/services/loginUserWithEmail.js": [],
+  "modules/auth/services/logoutUser.js": [],
+  "modules/base/api/global/[apiResponse]apiErrorHandler.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/base/api/global/[auth]apiResponse[apiErrorHandler].js": [
+    "lib/middleware/isErrorHandlerTriggered.js"
+  ],
+  "modules/base/api/global/[auth]payloadValidate.js": [
+    "modules/base/services/getAjv.js",
+    "modules/base/services/markSkipEscape.js"
+  ],
+  "modules/base/api/global/[payloadValidate]escapeHtml.js": [
+    "modules/base/services/escapePayload.js"
+  ],
+  "modules/base/api/global/context.js": [],
+  "modules/base/bootstrap.js": [
+    "lib/util/merge.js"
+  ],
+  "modules/base/graphql/types/Country/Country.resolvers.js": [],
+  "modules/base/graphql/types/Currency/Currency.resolvers.js": [],
+  "modules/base/graphql/types/DateTime/DateTime.resolvers.js": [],
+  "modules/base/graphql/types/Province/Province.resolvers.js": [],
+  "modules/base/graphql/types/Route/Route.admin.resolvers.js": [
+    "lib/router/Router.js"
+  ],
+  "modules/base/graphql/types/Timezone/Timezone.resolvers.js": [],
+  "modules/base/graphql/types/Url/Url.resolvers.js": [],
+  "modules/base/graphql/types/Version/Version.resolvers.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/base/migration/Version-1.0.1.js": [],
+  "modules/base/pages/admin/all/[context]isAdmin[auth].js": [],
+  "modules/base/pages/global/[auth]notFound[response].js": [],
+  "modules/base/pages/global/[response]errorHandler.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/base/pages/global/context.js": [],
+  "modules/base/pages/global/response[errorHandler].js": [
+    "lib/middleware/isErrorHandlerTriggered.js",
+    "lib/response/render.js",
+    "modules/base/services/notifications.js",
+    "modules/cms/services/widget/loadWidgetInstances.js"
+  ],
+  "modules/base/services/escapePayload.js": [
+    "modules/base/services/secret.js"
+  ],
+  "modules/base/services/getAjv.js": [],
+  "modules/base/services/markSkipEscape.js": [
+    "modules/base/services/secret.js"
+  ],
+  "modules/base/services/notifications.js": [],
+  "modules/base/services/secret.js": [],
+  "modules/catalog/api/addProductToCategory/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/addProductToCategory/addProducts.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/api/addProductToCollection/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/addProductToCollection/addProducts.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/api/addVariantItem/[bodyParser]addItem.js": [],
+  "modules/catalog/api/addVariantItem/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/createAttribute/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/createAttribute/createAttribute[finish].js": [],
+  "modules/catalog/api/createAttribute/finish[apiResponse].js": [],
+  "modules/catalog/api/createAttributeGroup/[bodyParser]saveGroup.js": [],
+  "modules/catalog/api/createAttributeGroup/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/createCategory/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/createCategory/createCategory[finish].js": [],
+  "modules/catalog/api/createCategory/finish[apiResponse].js": [],
+  "modules/catalog/api/createCollection/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/createCollection/createCollection[finish].js": [],
+  "modules/catalog/api/createCollection/finish[apiResponse].js": [],
+  "modules/catalog/api/createProduct/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/createProduct/createProduct[finish].js": [],
+  "modules/catalog/api/createProduct/finish[apiResponse].js": [],
+  "modules/catalog/api/createVariantGroup/[bodyParser]saveGroup.js": [],
+  "modules/catalog/api/createVariantGroup/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/deleteAttribute/deleteAttribute.js": [],
+  "modules/catalog/api/deleteAttributeGroup/deleteAttributeGroup.js": [],
+  "modules/catalog/api/deleteCategory/deleteCategory.js": [],
+  "modules/catalog/api/deleteCollection/deleteCollection.js": [],
+  "modules/catalog/api/deleteProduct/deleteProduct.js": [],
+  "modules/catalog/api/removeProductFromCategory/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/removeProductFromCategory/removeProducts.js": [],
+  "modules/catalog/api/removeProductFromCollection/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/removeProductFromCollection/removeProducts.js": [],
+  "modules/catalog/api/unlinkVariant/[context]multerNone[auth].js": [],
+  "modules/catalog/api/unlinkVariant/unlinkVariants.js": [],
+  "modules/catalog/api/updateAttribute/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/updateAttribute/finish[apiResponse].js": [],
+  "modules/catalog/api/updateAttribute/updateAttribute[finish].js": [],
+  "modules/catalog/api/updateAttributeGroup/[bodyParser]saveGroup.js": [],
+  "modules/catalog/api/updateAttributeGroup/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/updateCategory/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/updateCategory/finish[apiResponse].js": [],
+  "modules/catalog/api/updateCategory/updateCategory[finish].js": [],
+  "modules/catalog/api/updateCollection/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/updateCollection/finish[apiResponse].js": [],
+  "modules/catalog/api/updateCollection/updateCollection[finish].js": [],
+  "modules/catalog/api/updateProduct/[context]bodyParser[auth].js": [],
+  "modules/catalog/api/updateProduct/finish[apiResponse].js": [],
+  "modules/catalog/api/updateProduct/updateProduct[finish].js": [],
+  "modules/catalog/api/variantSearch/loadVariants.js": [],
+  "modules/catalog/bootstrap.js": [
+    "lib/util/defaultPaginationFilters.js",
+    "lib/util/merge.js",
+    "modules/catalog/services/registerCartItemProductUrlField.js",
+    "modules/catalog/services/registerCartItemVariantOptionsField.js",
+    "modules/catalog/services/registerDefaultAttributeCollectionFilters.js",
+    "modules/catalog/services/registerDefaultCategoryCollectionFilters.js",
+    "modules/catalog/services/registerDefaultCollectionCollectionFilters.js",
+    "modules/catalog/services/registerDefaultProductCollectionFilters.js"
+  ],
+  "modules/catalog/graphql/types/Attribute/Attribute.admin.resolvers.js": [
+    "modules/catalog/services/AttributeCollection.js",
+    "modules/catalog/services/AttributeGroupCollection.js",
+    "modules/catalog/services/getAttributeGroupsBaseQuery.js",
+    "modules/catalog/services/getAttributesBaseQuery.js"
+  ],
+  "modules/catalog/graphql/types/Attribute/Attribute.resolvers.js": [],
+  "modules/catalog/graphql/types/Category/Category.admin.resolvers.js": [],
+  "modules/catalog/graphql/types/Category/Category.resolvers.js": [
+    "modules/catalog/services/CategoryCollection.js",
+    "modules/catalog/services/ProductCollection.js",
+    "modules/catalog/services/getFilterableAttributes.js"
+  ],
+  "modules/catalog/graphql/types/Collection/Collection.admin.resolvers.js": [],
+  "modules/catalog/graphql/types/Collection/Collection.resolvers.js": [
+    "modules/catalog/services/CollectionCollection.js",
+    "modules/catalog/services/ProductCollection.js"
+  ],
+  "modules/catalog/graphql/types/FeaturedProduct/FeaturedProduct.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Attribute/ProductAttribute.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/CustomOption/CustomOption.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Image/ProductImage.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Inventory/Inventory.admin.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Inventory/Inventory.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Price/ProductPrice.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Product.admin.resolvers.js": [],
+  "modules/catalog/graphql/types/Product/Product.resolvers.js": [
+    "modules/catalog/services/ProductCollection.js"
+  ],
+  "modules/catalog/graphql/types/Product/Variant/Variant.resolvers.js": [],
+  "modules/catalog/graphql/types/Widget/CollectionProductsWidget/CollectionProductsWidget.resolvers.js": [],
+  "modules/catalog/migration/Version-1.0.0.js": [],
+  "modules/catalog/migration/Version-1.0.1.js": [],
+  "modules/catalog/migration/Version-1.0.2.js": [],
+  "modules/catalog/migration/Version-1.0.3.js": [],
+  "modules/catalog/migration/Version-1.0.4.js": [],
+  "modules/catalog/migration/Version-1.0.5.js": [],
+  "modules/catalog/migration/Version-1.0.6.js": [],
+  "modules/catalog/migration/Version-1.0.7.js": [],
+  "modules/catalog/pages/admin/attributeEdit/index.js": [],
+  "modules/catalog/pages/admin/attributeGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/catalog/pages/admin/attributeNew/index.js": [],
+  "modules/catalog/pages/admin/categoryEdit/index.js": [],
+  "modules/catalog/pages/admin/categoryGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/catalog/pages/admin/categoryNew/index.js": [],
+  "modules/catalog/pages/admin/collectionEdit/index.js": [],
+  "modules/catalog/pages/admin/collectionGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/catalog/pages/admin/collectionNew/index.js": [],
+  "modules/catalog/pages/admin/productEdit/index.js": [],
+  "modules/catalog/pages/admin/productGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/catalog/pages/admin/productNew/index.js": [],
+  "modules/catalog/pages/frontStore/catalogSearch/[index]filters.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/catalog/pages/frontStore/catalogSearch/index.js": [],
+  "modules/catalog/pages/frontStore/categoryView/[index]filters.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/catalog/pages/frontStore/categoryView/index.js": [],
+  "modules/catalog/pages/frontStore/productView/index.js": [],
+  "modules/catalog/services/AttributeCollection.js": [],
+  "modules/catalog/services/AttributeGroupCollection.js": [],
+  "modules/catalog/services/CategoryCollection.js": [],
+  "modules/catalog/services/CollectionCollection.js": [],
+  "modules/catalog/services/ProductCollection.js": [],
+  "modules/catalog/services/getAttributeGroupsBaseQuery.js": [],
+  "modules/catalog/services/getAttributesBaseQuery.js": [],
+  "modules/catalog/services/getFilterableAttributes.js": [],
+  "modules/catalog/services/registerCartItemProductUrlField.js": [],
+  "modules/catalog/services/registerCartItemVariantOptionsField.js": [],
+  "modules/catalog/services/registerDefaultAttributeCollectionFilters.js": [],
+  "modules/catalog/services/registerDefaultCategoryCollectionFilters.js": [],
+  "modules/catalog/services/registerDefaultCollectionCollectionFilters.js": [],
+  "modules/catalog/services/registerDefaultProductCollectionFilters.js": [],
+  "modules/catalog/subscribers/category_created/buildUrlRewrite.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/subscribers/category_deleted/deleteUrlRewrite.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/subscribers/category_updated/builUrlRewrite.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/subscribers/product_created/builUrlRewrite.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/subscribers/product_deleted/deleteUrlRewrite.js": [],
+  "modules/catalog/subscribers/product_image_added/localGenerateProductImageVariant.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/catalog/subscribers/product_updated/buildUrlRewrite.js": [],
+  "modules/catalog/tests/intergration/productView.test.js": [],
+  "modules/checkout/api/addCartAddress/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addCartAddress/saveAddress.js": [],
+  "modules/checkout/api/addCartContactInfo/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addCartContactInfo/saveContactInfo.js": [],
+  "modules/checkout/api/addCartItem/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addCartItem/addItemToCart.js": [],
+  "modules/checkout/api/addCartPaymentMethod/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addCartPaymentMethod/savePaymentMethod.js": [],
+  "modules/checkout/api/addCartShippingMethod/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addCartShippingMethod/saveShippingMethod.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/addMineCartItem/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addMineCartItem/[detectCurrentCart]addItemToCart.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/addMineCartItem/[getCurrentCustomer]detectCurrentCart.js": [],
+  "modules/checkout/api/addShippingNote/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/addShippingNote/saveShippingNote.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/addShippingZoneMethod/[context]borderParser[auth].js": [],
+  "modules/checkout/api/addShippingZoneMethod/[validateMethod]addShippingZoneMethod.js": [],
+  "modules/checkout/api/addShippingZoneMethod/validateMethod.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/createCart/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/createCart/createNewCart.js": [
+    "modules/checkout/services/cart/Cart.js"
+  ],
+  "modules/checkout/api/createOrder/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/createOrder/placeOrder.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/createShippingMethod/[context]borderParser[auth].js": [],
+  "modules/checkout/api/createShippingMethod/createShippingMethod.js": [],
+  "modules/checkout/api/createShippingZone/[context]borderParser[auth].js": [],
+  "modules/checkout/api/createShippingZone/createShippingZone.js": [],
+  "modules/checkout/api/deleteShippingZone/deleteShippingZone.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/deleteShippingZoneMethod/deleteShippingZoneMethod.js": [],
+  "modules/checkout/api/getPaymentMethods/sendMethods.js": [],
+  "modules/checkout/api/getShippingMethods/sendMethods.js": [
+    "bin/lib/normalizePort.js"
+  ],
+  "modules/checkout/api/removeCartItem/removeItem.js": [],
+  "modules/checkout/api/removeMineCartItem/[detectCurrentCart]removeItem.js": [],
+  "modules/checkout/api/removeMineCartItem/[getCurrentCustomer]detectCurrentCart.js": [
+    "modules/checkout/api/addMineCartItem/[getCurrentCustomer]detectCurrentCart.js"
+  ],
+  "modules/checkout/api/updateCartItemQty/[bodyParser]updateQty.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/updateCartItemQty/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/updateMineCartItemQty/[context]bodyParser[auth].js": [],
+  "modules/checkout/api/updateMineCartItemQty/[detectCurrentCart]updateQty.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/updateMineCartItemQty/[getCurrentCustomer]detectCurrentCart.js": [],
+  "modules/checkout/api/updateShippingMethod/[context]borderParser[auth].js": [],
+  "modules/checkout/api/updateShippingMethod/updateShippingMethod.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/api/updateShippingZone/[context]borderParser[auth].js": [],
+  "modules/checkout/api/updateShippingZone/updateShippingZone.js": [],
+  "modules/checkout/api/updateShippingZoneMethod/[context]borderParser[auth].js": [],
+  "modules/checkout/api/updateShippingZoneMethod/[validateMethod]updateShippingZoneMethod.js": [],
+  "modules/checkout/api/updateShippingZoneMethod/validateMethod.js": [
+    "modules/checkout/api/addShippingZoneMethod/validateMethod.js"
+  ],
+  "modules/checkout/bootstrap.js": [
+    "lib/log/logger.js",
+    "lib/util/merge.js",
+    "modules/checkout/services/cart/registerCartBaseFields.js",
+    "modules/checkout/services/cart/registerCartItemBaseFields.js",
+    "modules/checkout/services/cart/sortFields.js"
+  ],
+  "modules/checkout/graphql/types/Cart/Cart.resolvers.js": [],
+  "modules/checkout/graphql/types/Checkout/Checkout.resolvers.js": [],
+  "modules/checkout/graphql/types/CheckoutSetting/CheckoutSetting.resolvers.js": [],
+  "modules/checkout/graphql/types/Date/Date.resolvers.js": [],
+  "modules/checkout/graphql/types/Price/Price.resolvers.js": [],
+  "modules/checkout/graphql/types/ShippingMethod/ShippingMethod.resolvers.js": [],
+  "modules/checkout/graphql/types/ShippingZone/ShippingZone.resolvers.js": [],
+  "modules/checkout/graphql/types/Weight/Weight.resolvers.js": [],
+  "modules/checkout/migration/Version-1.0.0.js": [],
+  "modules/checkout/migration/Version-1.0.1.js": [],
+  "modules/checkout/migration/Version-1.0.2.js": [],
+  "modules/checkout/migration/Version-1.0.3.js": [],
+  "modules/checkout/migration/Version-1.0.4.js": [],
+  "modules/checkout/migration/Version-1.0.5.js": [],
+  "modules/checkout/migration/Version-1.0.6.js": [],
+  "modules/checkout/pages/admin/shippingSetting/index.js": [],
+  "modules/checkout/pages/frontStore/all/[auth]addCustomerToCart.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/pages/frontStore/all/[context]detectCurrentCart[auth].js": [],
+  "modules/checkout/pages/frontStore/cart/index.js": [],
+  "modules/checkout/pages/frontStore/checkout/index.js": [],
+  "modules/checkout/pages/frontStore/checkoutSuccess/index.js": [],
+  "modules/checkout/services/cart/Cart.js": [
+    "modules/checkout/services/cart/DataObject.js"
+  ],
+  "modules/checkout/services/cart/DataObject.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/checkout/services/cart/registerCartBaseFields.js": [
+    "bin/lib/normalizePort.js",
+    "modules/tax/services/calculateTaxAmount.js",
+    "modules/tax/services/getTaxPercent.js",
+    "modules/tax/services/getTaxRates.js"
+  ],
+  "modules/checkout/services/cart/registerCartItemBaseFields.js": [
+    "modules/tax/services/calculateTaxAmount.js"
+  ],
+  "modules/checkout/services/cart/sortFields.js": [],
+  "modules/checkout/tests/basicSetup.js": [
+    "modules/checkout/services/cart/registerCartBaseFields.js",
+    "modules/checkout/services/cart/registerCartItemBaseFields.js",
+    "modules/checkout/services/cart/sortFields.js",
+    "modules/checkout/tests/coupons.js",
+    "modules/checkout/tests/products.js",
+    "modules/checkout/tests/taxRates.js",
+    "modules/promotion/services/registerCartItemPromotionFields.js",
+    "modules/promotion/services/registerCartPromotionFields.js",
+    "modules/promotion/services/registerDefaultCalculators.js",
+    "modules/promotion/services/registerDefaultValidators.js"
+  ],
+  "modules/checkout/tests/coupons.js": [],
+  "modules/checkout/tests/products.js": [],
+  "modules/checkout/tests/taxRates.js": [],
+  "modules/checkout/tests/unit/addItemSideEffect.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js",
+    "modules/checkout/tests/products.js"
+  ],
+  "modules/checkout/tests/unit/discountAmount.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/grandTotal.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/lineTotal.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/lineTotalWithDiscount.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/productPrice.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/removeItemSideEffect.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/subTotal.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/subTotalWithDiscount.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/taxAmount.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/taxAmountRounding.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/checkout/tests/unit/updateCartItemQtySideEffect.test.js": [
+    "modules/checkout/services/cart/Cart.js",
+    "modules/checkout/tests/basicSetup.js"
+  ],
+  "modules/cms/api/createCmsPage/[context]bodyParser[auth].js": [],
+  "modules/cms/api/createCmsPage/createPage[finish].js": [
+    "modules/cms/services/page/createPage.js"
+  ],
+  "modules/cms/api/createCmsPage/finish[apiResponse].js": [],
+  "modules/cms/api/createWidget/[context]bodyParser[auth].js": [],
+  "modules/cms/api/createWidget/createWidget[finish].js": [
+    "modules/cms/services/widget/createWidget.js"
+  ],
+  "modules/cms/api/createWidget/finish[apiResponse].js": [],
+  "modules/cms/api/deleteCmsPage/deleteCmsPage.js": [
+    "modules/cms/services/page/deletePage.js"
+  ],
+  "modules/cms/api/deleteWidget/deleteWidget.js": [
+    "modules/cms/services/widget/deleteWidget.js"
+  ],
+  "modules/cms/api/fileBrowser/[context]validatePath[auth].js": [
+    "modules/cms/services/validatePath.js"
+  ],
+  "modules/cms/api/fileBrowser/browFiles.js": [],
+  "modules/cms/api/fileDelete/[context]validatePath[auth].js": [
+    "modules/cms/services/validatePath.js"
+  ],
+  "modules/cms/api/fileDelete/deleteFile.js": [],
+  "modules/cms/api/fileUpload/[context]multerFile[auth].js": [
+    "modules/cms/services/getMulter.js"
+  ],
+  "modules/cms/api/fileUpload/[context]validatePath[multerFile].js": [
+    "modules/cms/services/validatePath.js"
+  ],
+  "modules/cms/api/fileUpload/[multerFile]upload.js": [],
+  "modules/cms/api/folderCreate/[context]bodyParser[auth].js": [],
+  "modules/cms/api/folderCreate/[context]validatePath[auth].js": [
+    "modules/cms/services/validatePath.js"
+  ],
+  "modules/cms/api/folderCreate/createFolder.js": [],
+  "modules/cms/api/imageUpload/[context]multerFile[auth].js": [
+    "modules/cms/api/fileUpload/[context]multerFile[auth].js"
+  ],
+  "modules/cms/api/imageUpload/[context]validatePath[multerFile].js": [
+    "modules/cms/api/fileUpload/[context]validatePath[multerFile].js"
+  ],
+  "modules/cms/api/imageUpload/[multerFile]upload.js": [
+    "modules/cms/api/fileUpload/[multerFile]upload.js"
+  ],
+  "modules/cms/api/imageUpload/[multerFile]verifyImages[upload].js": [],
+  "modules/cms/api/updateCmsPage/[context]bodyParser[auth].js": [],
+  "modules/cms/api/updateCmsPage/finish[apiResponse].js": [],
+  "modules/cms/api/updateCmsPage/updatePage[finish].js": [
+    "modules/cms/services/page/updatePage.js"
+  ],
+  "modules/cms/api/updateWidget/[context]bodyParser[auth].js": [],
+  "modules/cms/api/updateWidget/finish[apiResponse].js": [],
+  "modules/cms/api/updateWidget/updateWidget[finish].js": [
+    "modules/cms/services/widget/updateWidget.js"
+  ],
+  "modules/cms/bootstrap.js": [
+    "lib/util/defaultPaginationFilters.js",
+    "lib/util/merge.js",
+    "modules/cms/services/registerDefaultPageCollectionFilters.js",
+    "modules/cms/services/registerDefaultWidgetCollectionFilters.js"
+  ],
+  "modules/cms/graphql/types/CmsPage/CmsPage.resolvers.js": [
+    "modules/cms/services/CMSPageCollection.js",
+    "modules/cms/services/getCmsPagesBaseQuery.js"
+  ],
+  "modules/cms/graphql/types/Menu/Menu.resolvers.js": [],
+  "modules/cms/graphql/types/PageInfo/PageInfo.resolvers.js": [],
+  "modules/cms/graphql/types/ThemeConfig/ThemeConfig.resolvers.js": [],
+  "modules/cms/graphql/types/Widget/Widget.resolvers.js": [
+    "modules/cms/services/WidgetCollection.js",
+    "modules/cms/services/getCmsPagesBaseQuery.js",
+    "modules/cms/services/getWidgetsBaseQuery.js"
+  ],
+  "modules/cms/migration/Version-1.0.0.js": [],
+  "modules/cms/migration/Version-1.1.0.js": [],
+  "modules/cms/migration/Version-1.1.1.js": [],
+  "modules/cms/pages/admin/adminStaticAsset/staticAssets.js": [
+    "lib/middlewares/static.js"
+  ],
+  "modules/cms/pages/admin/cmsPageEdit/index.js": [],
+  "modules/cms/pages/admin/cmsPageGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/cms/pages/admin/cmsPageNew/index.js": [],
+  "modules/cms/pages/admin/dashboard/index.js": [],
+  "modules/cms/pages/admin/widgetEdit/index.js": [],
+  "modules/cms/pages/admin/widgetGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/cms/pages/admin/widgetNew/index.js": [],
+  "modules/cms/pages/admin/widgetNew/typeValidate.js": [],
+  "modules/cms/pages/frontStore/cmsPageView/index.js": [
+    "modules/cms/services/getCmsPagesBaseQuery.js"
+  ],
+  "modules/cms/pages/frontStore/homepage/meta.js": [],
+  "modules/cms/pages/frontStore/staticAsset/[context]staticAssets[auth].js": [
+    "lib/middlewares/static.js"
+  ],
+  "modules/cms/services/CMSPageCollection.js": [],
+  "modules/cms/services/CustomMemoryStorage.js": [],
+  "modules/cms/services/WidgetCollection.js": [],
+  "modules/cms/services/generateFileName.js": [],
+  "modules/cms/services/getCmsPagesBaseQuery.js": [],
+  "modules/cms/services/getMulter.js": [
+    "modules/cms/services/CustomMemoryStorage.js",
+    "modules/cms/services/generateFileName.js"
+  ],
+  "modules/cms/services/getWidgetsBaseQuery.js": [],
+  "modules/cms/services/page/createPage.js": [
+    "modules/base/services/getAjv.js",
+    "modules/cms/services/page/pageDataSchema.json"
+  ],
+  "modules/cms/services/page/deletePage.js": [],
+  "modules/cms/services/page/pageDataSchema.json": [],
+  "modules/cms/services/page/updatePage.js": [
+    "modules/base/services/getAjv.js",
+    "modules/cms/services/page/pageDataSchema.json"
+  ],
+  "modules/cms/services/registerDefaultPageCollectionFilters.js": [],
+  "modules/cms/services/registerDefaultWidgetCollectionFilters.js": [],
+  "modules/cms/services/tailwind.admin.config.js": [],
+  "modules/cms/services/tailwind.frontStore.config.js": [],
+  "modules/cms/services/tests/unit/validatePath.test.js": [
+    "modules/cms/services/validatePath.js"
+  ],
+  "modules/cms/services/validatePath.js": [],
+  "modules/cms/services/widget/createWidget.js": [
+    "modules/base/services/getAjv.js",
+    "modules/cms/services/widget/widgetDataSchema.json"
+  ],
+  "modules/cms/services/widget/deleteWidget.js": [],
+  "modules/cms/services/widget/loadWidgetInstances.js": [],
+  "modules/cms/services/widget/updateWidget.js": [
+    "modules/base/services/getAjv.js",
+    "modules/cms/services/widget/widgetDataSchema.json"
+  ],
+  "modules/cms/services/widget/widgetDataSchema.json": [],
+  "modules/cod/api/codCapturePayment/[bodyParser]capture.js": [],
+  "modules/cod/api/codCapturePayment/[context]bodyParser[auth].js": [],
+  "modules/cod/api/createOrder/[placeOrder]addOrderPlacedEvent.js": [],
+  "modules/cod/bootstrap.js": [],
+  "modules/cod/graphql/types/CODSetting/CODSetting.resolvers.js": [],
+  "modules/customer/api/createCustomer/[bodyParser]createCustomer.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/customer/api/createCustomer/[context]bodyParser[auth].js": [],
+  "modules/customer/api/createCustomerAddress/[bodyParser]createCustomerAddress.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/customer/api/createCustomerAddress/[context]bodyParser[auth].js": [],
+  "modules/customer/api/deleteCustomer/deleteCustomer.js": [],
+  "modules/customer/api/deleteCustomerAddress/deleteCustomerAddress.js": [],
+  "modules/customer/api/global/[context]getCurrentCustomer[auth].js": [
+    "modules/auth/services/getFrontStoreSessionCookieName.js"
+  ],
+  "modules/customer/api/resetPassword/[bodyParser]resetPassword.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/customer/api/resetPassword/[context]bodyParser[auth].js": [],
+  "modules/customer/api/updateCustomer/[context]bodyParser[auth].js": [],
+  "modules/customer/api/updateCustomer/updateCustomer.js": [],
+  "modules/customer/api/updateCustomerAddress/[context]bodyParser[auth].js": [],
+  "modules/customer/api/updateCustomerAddress/updateCustomerAddress.js": [],
+  "modules/customer/api/updatePassword/[bodyParser]updatePassword.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/customer/api/updatePassword/[context]bodyParser[auth].js": [],
+  "modules/customer/graphql/types/Customer/Customer.admin.resolvers.js": [
+    "modules/customer/services/CustomerCollection.js"
+  ],
+  "modules/customer/graphql/types/Customer/Customer.resolvers.js": [],
+  "modules/customer/graphql/types/CustomerGroup/CustomerGroup.admin.resolvers.js": [
+    "modules/customer/services/CustomerGroupCollection.js",
+    "modules/customer/services/getCustomerGroupsBaseQuery.js"
+  ],
+  "modules/customer/graphql/types/CustomerGroup/CustomerGroup.resolvers.js": [],
+  "modules/customer/migration/Version-1.0.0.js": [],
+  "modules/customer/migration/Version-1.0.1.js": [],
+  "modules/customer/migration/Version-1.0.2.js": [],
+  "modules/customer/migration/Version-1.0.3.js": [],
+  "modules/customer/pages/admin/customerEdit/index.js": [],
+  "modules/customer/pages/admin/customerGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/customer/pages/frontStore/account/index.js": [],
+  "modules/customer/pages/frontStore/accountEdit/index.js": [],
+  "modules/customer/pages/frontStore/all/[context]auth.js": [],
+  "modules/customer/pages/frontStore/customerLoginJson/[bodyParser]login.js": [],
+  "modules/customer/pages/frontStore/customerLogoutJson/logout.js": [],
+  "modules/customer/pages/frontStore/login/index.js": [],
+  "modules/customer/pages/frontStore/register/index.js": [],
+  "modules/customer/pages/frontStore/resetPasswordPage/index.js": [],
+  "modules/customer/pages/frontStore/updatePasswordPage/index.js": [],
+  "modules/customer/services/CustomerCollection.js": [],
+  "modules/customer/services/CustomerGroupCollection.js": [],
+  "modules/customer/services/customer/loginCustomerWithEmail.js": [],
+  "modules/customer/services/customer/logoutCustomer.js": [],
+  "modules/customer/services/getCustomerGroupsBaseQuery.js": [],
+  "modules/customer/services/registerDefaultCustomerCollectionFilters.js": [],
+  "modules/customer/services/registerDefaultCustomerGroupCollectionFilters.js": [],
+  "modules/graphql/api/adminGraphql/[bodyParser]graphql.js": [
+    "modules/graphql/services/buildSchema.js",
+    "modules/graphql/services/graphqlMiddleware.js"
+  ],
+  "modules/graphql/api/adminGraphql/[context]bodyParser[auth].js": [],
+  "modules/graphql/api/graphql/[auth]removeUser[graphql].js": [],
+  "modules/graphql/api/graphql/[bodyParser]graphql.js": [
+    "modules/graphql/services/buildStoreFrontSchema.js",
+    "modules/graphql/services/graphqlMiddleware.js"
+  ],
+  "modules/graphql/api/graphql/[context]bodyParser[auth].js": [],
+  "modules/graphql/bootstrap.js": [
+    "modules/graphql/services/buildSchema.js"
+  ],
+  "modules/graphql/graphql/types/Query/Query.resolvers.js": [],
+  "modules/graphql/pages/global/[bodyParser]buildQuery[graphql].js": [
+    "lib/log/logger.js",
+    "lib/router/Router.js",
+    "lib/webpack/getRouteBuildPath.js",
+    "modules/cms/services/widget/loadWidgetInstances.js"
+  ],
+  "modules/graphql/pages/global/[buildQuery]graphql[notFound].js": [
+    "lib/log/logger.js",
+    "modules/graphql/services/buildSchema.js",
+    "modules/graphql/services/buildStoreFrontSchema.js",
+    "modules/graphql/services/graphqlErrorMessageFormat.js"
+  ],
+  "modules/graphql/pages/global/bodyParser[buildQuery].js": [],
+  "modules/graphql/services/buildResolvers.js": [],
+  "modules/graphql/services/buildSchema.js": [
+    "modules/graphql/services/buildResolvers.js",
+    "modules/graphql/services/buildTypes.js"
+  ],
+  "modules/graphql/services/buildStoreFrontSchema.js": [
+    "modules/graphql/services/buildResolvers.js",
+    "modules/graphql/services/buildTypes.js"
+  ],
+  "modules/graphql/services/buildTypes.js": [],
+  "modules/graphql/services/graphqlErrorMessageFormat.js": [],
+  "modules/graphql/services/graphqlMiddleware.js": [],
+  "modules/oms/api/cancelOrder/[context]borderParser[auth].js": [],
+  "modules/oms/api/cancelOrder/cancelOrder.js": [],
+  "modules/oms/api/createShipment/[context]borderParser[auth].js": [],
+  "modules/oms/api/createShipment/createShipment.js": [],
+  "modules/oms/api/lifetimesales/loadData.js": [],
+  "modules/oms/api/markDelivered/[context]bodyParser[auth].js": [],
+  "modules/oms/api/markDelivered/markDelivered.js": [],
+  "modules/oms/api/salestatistic/loadData.js": [],
+  "modules/oms/api/updateShipment/[context]bodyParser[auth].js": [],
+  "modules/oms/api/updateShipment/updateShipment.js": [],
+  "modules/oms/bootstrap.js": [
+    "lib/util/defaultPaginationFilters.js",
+    "lib/util/merge.js",
+    "modules/oms/services/registerDefaultOrderCollectionFilters.js"
+  ],
+  "modules/oms/graphql/types/BestSeller/BestSeller.admin.resolvers.js": [],
+  "modules/oms/graphql/types/Carrier/Carrier.admin.resolvers.js": [],
+  "modules/oms/graphql/types/Order/Order.admin.resolvers.js": [
+    "modules/oms/services/OrderCollection.js",
+    "modules/oms/services/getOrdersBaseQuery.js"
+  ],
+  "modules/oms/graphql/types/Order/Order.resolvers.js": [
+    "modules/oms/services/getOrdersBaseQuery.js"
+  ],
+  "modules/oms/graphql/types/PaymentTransaction/PaymentTransaction.admin.resolvers.js": [],
+  "modules/oms/graphql/types/Status/Status.resolvers.js": [],
+  "modules/oms/migration/Version-1.0.0.js": [],
+  "modules/oms/migration/Version-1.0.1.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/oms/pages/admin/orderEdit/index.js": [],
+  "modules/oms/pages/admin/orderGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/oms/services/OrderCollection.js": [],
+  "modules/oms/services/getOrdersBaseQuery.js": [],
+  "modules/oms/services/registerDefaultOrderCollectionFilters.js": [],
+  "modules/paypal/api/paypalAuthorizePayment/[bodyParser]authorize.js": [
+    "lib/log/logger.js",
+    "modules/paypal/services/requester.js"
+  ],
+  "modules/paypal/api/paypalAuthorizePayment/[context]bodyParser[auth].js": [],
+  "modules/paypal/api/paypalCaptureAuthorizedPayment/[bodyParser]capture.js": [
+    "lib/log/logger.js",
+    "modules/paypal/services/requester.js"
+  ],
+  "modules/paypal/api/paypalCaptureAuthorizedPayment/[context]bodyParser[auth].js": [],
+  "modules/paypal/api/paypalCapturePayment/[bodyParser]capture.js": [
+    "lib/log/logger.js",
+    "modules/paypal/services/requester.js"
+  ],
+  "modules/paypal/api/paypalCapturePayment/[context]bodyParser[auth].js": [],
+  "modules/paypal/api/paypalCreateOrder/[bodyParser]createOrder.js": [
+    "lib/log/logger.js",
+    "modules/paypal/services/requester.js"
+  ],
+  "modules/paypal/api/paypalCreateOrder/[context]bodyParser[auth].js": [],
+  "modules/paypal/bootstrap.js": [
+    "modules/paypal/services/voidPaymentTransaction.js"
+  ],
+  "modules/paypal/graphql/types/PaypalSetting/PaypalSetting.admin.resolvers.js": [],
+  "modules/paypal/graphql/types/PaypalSetting/PaypalSetting.resolvers.js": [],
+  "modules/paypal/pages/frontStore/paypalCancel/index.js": [],
+  "modules/paypal/pages/frontStore/paypalReturn/index.js": [],
+  "modules/paypal/services/getApiBaseUrl.js": [],
+  "modules/paypal/services/requester.js": [
+    "modules/paypal/services/getApiBaseUrl.js"
+  ],
+  "modules/paypal/services/voidPaymentTransaction.js": [
+    "lib/log/logger.js",
+    "modules/paypal/services/requester.js"
+  ],
+  "modules/promotion/api/couponApply/[context]bodyParser[auth].js": [],
+  "modules/promotion/api/couponApply/[validateCouponCode]applyCoupon.js": [],
+  "modules/promotion/api/couponApply/validateCouponCode.js": [],
+  "modules/promotion/api/createCoupon/[context]bodyParser[auth].js": [],
+  "modules/promotion/api/createCoupon/createCoupon[finish].js": [
+    "modules/promotion/services/coupon/createCoupon.js"
+  ],
+  "modules/promotion/api/createCoupon/finish[apiResponse].js": [],
+  "modules/promotion/api/deleteCoupon/deleteCoupon.js": [
+    "modules/promotion/services/coupon/deleteCoupon.js"
+  ],
+  "modules/promotion/api/updateCoupon/[context]bodyParser[auth].js": [],
+  "modules/promotion/api/updateCoupon/finish[apiResponse].js": [],
+  "modules/promotion/api/updateCoupon/updateCoupon[finish].js": [
+    "modules/promotion/services/coupon/updateCoupon.js"
+  ],
+  "modules/promotion/bootstrap.js": [
+    "lib/util/defaultPaginationFilters.js",
+    "modules/promotion/services/registerCartItemPromotionFields.js",
+    "modules/promotion/services/registerCartPromotionFields.js",
+    "modules/promotion/services/registerDefaultCalculators.js",
+    "modules/promotion/services/registerDefaultCouponCollectionFilters.js",
+    "modules/promotion/services/registerDefaultValidators.js"
+  ],
+  "modules/promotion/graphql/types/Coupon/Coupon.admin.resolvers.js": [
+    "modules/promotion/services/CouponCollection.js",
+    "modules/promotion/services/getCouponsBaseQuery.js"
+  ],
+  "modules/promotion/graphql/types/Coupon/Coupon.resolvers.js": [],
+  "modules/promotion/migration/Version-1.0.0.js": [],
+  "modules/promotion/migration/Version-1.0.1.js": [],
+  "modules/promotion/pages/admin/couponEdit/index.js": [],
+  "modules/promotion/pages/admin/couponGrid/index.js": [
+    "lib/util/buildFilterFromUrl.js"
+  ],
+  "modules/promotion/pages/admin/couponNew/index.js": [],
+  "modules/promotion/services/CouponCollection.js": [],
+  "modules/promotion/services/coupon/couponDataSchema.json": [],
+  "modules/promotion/services/coupon/createCoupon.js": [
+    "modules/base/services/getAjv.js",
+    "modules/promotion/services/coupon/couponDataSchema.json"
+  ],
+  "modules/promotion/services/coupon/deleteCoupon.js": [],
+  "modules/promotion/services/coupon/updateCoupon.js": [
+    "modules/base/services/getAjv.js",
+    "modules/promotion/services/coupon/couponDataSchema.json"
+  ],
+  "modules/promotion/services/couponValidator.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/promotion/services/discountCalculator.js": [],
+  "modules/promotion/services/getCartTotalBeforeDiscount.js": [],
+  "modules/promotion/services/getCouponsBaseQuery.js": [],
+  "modules/promotion/services/registerCartItemPromotionFields.js": [],
+  "modules/promotion/services/registerCartPromotionFields.js": [
+    "modules/promotion/services/couponValidator.js",
+    "modules/promotion/services/discountCalculator.js"
+  ],
+  "modules/promotion/services/registerDefaultCalculators.js": [],
+  "modules/promotion/services/registerDefaultCouponCollectionFilters.js": [],
+  "modules/promotion/services/registerDefaultValidators.js": [],
+  "modules/setting/api/saveSetting/[context]bodyParser[auth].js": [],
+  "modules/setting/api/saveSetting/saveSetting.js": [],
+  "modules/setting/graphql/types/Setting/Setting.resolvers.js": [],
+  "modules/setting/graphql/types/ShippingSetting/ShippingSetting.resolvers.js": [],
+  "modules/setting/graphql/types/StoreSetting/StoreSetting.resolvers.js": [],
+  "modules/setting/migration/Version-1.0.0.js": [],
+  "modules/setting/pages/admin/paymentSetting/index.js": [],
+  "modules/setting/pages/admin/storeSetting/index.js": [],
+  "modules/stripe/api/capturePaymentIntent/[context]bodyParser[auth].js": [],
+  "modules/stripe/api/capturePaymentIntent/capturePaymentIntent.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/stripe/api/createPaymentIntent/[context]bodyParser[auth].js": [],
+  "modules/stripe/api/createPaymentIntent/createPaymentIntent.js": [],
+  "modules/stripe/api/refundPaymentIntent/[context]bodyParser[auth].js": [],
+  "modules/stripe/api/refundPaymentIntent/refundPaymentIntent.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/stripe/api/stripeWebHook/[bodyJson]webhook.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/stripe/api/stripeWebHook/bodyJson.js": [],
+  "modules/stripe/bootstrap.js": [
+    "modules/stripe/services/cancelPayment.js"
+  ],
+  "modules/stripe/graphql/types/StripeSetting/StripeSetting.admin.resolvers.js": [],
+  "modules/stripe/graphql/types/StripeSetting/StripeSetting.resolvers.js": [],
+  "modules/stripe/pages/frontStore/stripeReturn/index.js": [
+    "lib/log/logger.js",
+    "modules/base/services/notifications.js"
+  ],
+  "modules/stripe/services/cancelPayment.js": [
+    "lib/log/logger.js"
+  ],
+  "modules/tax/api/createTaxClass/[context]borderParser[auth].js": [],
+  "modules/tax/api/createTaxClass/createTaxClass.js": [],
+  "modules/tax/api/createTaxRate/[context]borderParser[auth].js": [],
+  "modules/tax/api/createTaxRate/createTaxRate.js": [],
+  "modules/tax/api/deleteTaxRate/[context]borderParser[auth].js": [],
+  "modules/tax/api/deleteTaxRate/deleteTaxRate.js": [],
+  "modules/tax/api/updateTaxClass/[context]borderParser[auth].js": [],
+  "modules/tax/api/updateTaxClass/updateTaxClass.js": [],
+  "modules/tax/api/updateTaxRate/[context]borderParser[auth].js": [],
+  "modules/tax/api/updateTaxRate/updateTaxRate.js": [],
+  "modules/tax/bootstrap.js": [
+    "lib/util/defaultPaginationFilters.js",
+    "lib/util/merge.js",
+    "modules/tax/services/registerCartItemTaxPercentField.js",
+    "modules/tax/services/registerDefaultTaxClassCollectionFilters.js"
+  ],
+  "modules/tax/graphql/types/Product/Price/ProductPrice.resolvers.js": [],
+  "modules/tax/graphql/types/TaxClass/TaxClass.admin.resolvers.js": [
+    "modules/tax/services/TaxClassCollection.js"
+  ],
+  "modules/tax/graphql/types/TaxSetting/TaxSetting.admin.resolvers.js": [],
+  "modules/tax/graphql/types/TaxSetting/TaxSetting.resolvers.js": [],
+  "modules/tax/migration/Version-1.0.0.js": [],
+  "modules/tax/pages/admin/taxSetting/index.js": [],
+  "modules/tax/services/TaxClassCollection.js": [],
+  "modules/tax/services/calculateTaxAmount.js": [],
+  "modules/tax/services/getTaxPercent.js": [],
+  "modules/tax/services/getTaxRates.js": [],
+  "modules/tax/services/registerCartItemTaxPercentField.js": [
+    "modules/tax/services/getTaxPercent.js",
+    "modules/tax/services/getTaxRates.js"
+  ],
+  "modules/tax/services/registerDefaultTaxClassCollectionFilters.js": []
+}

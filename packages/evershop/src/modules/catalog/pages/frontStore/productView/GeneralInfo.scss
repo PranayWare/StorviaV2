@@ -1,0 +1,8 @@
+.product-single-name {
+  text-transform: capitalize;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  font-size: clamp(1.75rem, 2.2vw, 2.5rem);
+}

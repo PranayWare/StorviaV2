@@ -1,0 +1,87 @@
+#productForm {
+  .add-to-cart {
+    .button {
+      display: block;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #fff;
+      border: 1px solid rgba(37, 99, 235, 0.35);
+      border-radius: 14px;
+      padding: 14px 18px;
+      font-size: 0.95rem;
+      letter-spacing: 0.01em;
+      width: 100%;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14);
+      transition: transform 140ms ease, box-shadow 140ms ease,
+        background-color 140ms ease;
+    }
+    .button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 20px 50px rgba(15, 23, 42, 0.18);
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    }
+    .button:active {
+      transform: translateY(0);
+    }
+    .field-error {
+      display: none;
+    }
+  }
+}
+.toast-mini-cart {
+  padding: 1.25rem;
+  border: 1px solid var(--divider);
+  box-shadow: 1px 1px 10px 2px #ebebeb80;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 22px 65px rgba(15, 23, 42, 0.16);
+  .top-head {
+    grid-template-columns: 4fr 1fr;
+    padding-bottom: 0.625rem;
+    border-bottom: 1px solid var(--divider);
+    margin-bottom: 0.625rem;
+  }
+  .close {
+    color: var(--textSubdued);
+    svg {
+      width: 1.875rem;
+      height: 1.875rem;
+    }
+  }
+  .popup-thumbnail {
+    width: 3.75rem;
+    height: 3.75rem;
+    text-align: center;
+    display: flex;
+    background-color: #fafafa;
+    margin-right: 0.938rem;
+    img {
+      align-self: center;
+      display: block;
+    }
+  }
+  .item-info {
+    flex-basis: 100%;
+    .name {
+      font-size: 1rem;
+    }
+  }
+  .add-cart-popup-button {
+    display: block;
+    background: linear-gradient(180deg, #ffffff, #fbfdff);
+    color: var(--text);
+    border: 1px solid rgba(15, 23, 42, 0.14);
+    border-radius: 14px;
+    padding: 12px 18px;
+    font-size: 0.95rem;
+    width: 100%;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+    text-align: center;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+  }
+  .add-cart-popup-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.14);
+    border-color: rgba(37, 99, 235, 0.35);
+  }
+}

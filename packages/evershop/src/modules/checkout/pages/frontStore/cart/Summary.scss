@@ -1,0 +1,19 @@
+.shopping-cart-checkout-btn {
+  .button {
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    width: 100%;
+    text-align: center;
+    padding: 14px 18px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #fff;
+    border: 1px solid rgba(37, 99, 235, 0.35);
+    box-shadow: 0 18px 44px rgba(15, 23, 42, 0.14);
+  }
+  .button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 22px 55px rgba(15, 23, 42, 0.18);
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  }
+}

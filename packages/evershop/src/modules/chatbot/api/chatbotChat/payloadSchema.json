@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "message": { "type": "string" },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string" },
+          "content": { "type": "string" }
+        },
+        "required": ["role", "content"],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": ["message"],
+  "additionalProperties": true
+}
+

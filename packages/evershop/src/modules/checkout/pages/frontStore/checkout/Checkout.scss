@@ -1,0 +1,75 @@
+.checkout-steps {
+  form {
+    .form-submit-button {
+      padding-top: 0px;
+      border-top: 0;
+      display: flex;
+      justify-content: end;
+      button.button {
+        padding: 1.25rem;
+        font-weight: 400;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #fff;
+        border: 1px solid rgba(37, 99, 235, 0.35);
+        box-shadow: 0 18px 44px rgba(15, 23, 42, 0.14);
+      }
+      button.button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 22px 55px rgba(15, 23, 42, 0.18);
+        background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      }
+    }
+    label {
+      color: var(--textSubdued);
+    }
+  }
+  .place-order-button {
+    button {
+      padding: 1.25rem;
+      font-weight: 400;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #fff;
+      border: 1px solid rgba(37, 99, 235, 0.35);
+      box-shadow: 0 18px 44px rgba(15, 23, 42, 0.14);
+    }
+    button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 22px 55px rgba(15, 23, 42, 0.18);
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    }
+  }
+}
+.wrapper {
+  .header {
+    margin-bottom: 0;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+.checkout-steps {
+  padding-bottom: 1.25rem;
+}
+.separator {
+  padding: 0 5px;
+}
+.checkout-breadcrumb {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--textSubdued);
+}
+
+.breadcrumb {
+  display: none;
+}
+
+.checkout-completed-steps {
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
