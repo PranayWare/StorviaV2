@@ -5,11 +5,12 @@
   "type": "module",
   "description": "EverShop based ecommerce platform (Storvia)",
   "workspaces": [
-    "packages/*",
-    "!packages/postgres-query-builder",
-    "extensions/*",
-    "themes/*"
-  ],
+  "packages/*",
+  "extensions/*",
+  "themes/*",
+  "!packages/postgres-query-builder",
+  "!packages/postgres-query-builder__disabled"
+],
   "scripts": {
   "start": "cross-env NODE_ENV=production node ./packages/evershop/dist/bin/start/index.js",
   "compile:evershop": "rimraf ./packages/evershop/dist && cd ./packages/evershop && swc ./src/ -d dist/ --config-file .swcrc --copy-files --strip-leading-paths",
