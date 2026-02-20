@@ -6,6 +6,7 @@
   "description": "EverShop based ecommerce platform (Storvia)",
   "workspaces": [
     "packages/*",
+    "!packages/postgres-query-builder",
     "extensions/*",
     "themes/*"
   ],
