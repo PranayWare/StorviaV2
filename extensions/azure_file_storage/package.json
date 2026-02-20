@@ -5,7 +5,8 @@
   "description": "An extension for EverShop to use Azure File Storage",
   "scripts": {
     "compile": "tsc",
-    "build": "echo \"skip build\""
+    "build": "echo \"skip build\"",
+    "start": "echo \"skip start\""
   },
   "repository": {
     "type": "git",

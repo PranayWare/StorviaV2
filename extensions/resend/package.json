@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "compile": "tsc",
-    "build": "echo \"skip build\""
+    "build": "echo \"skip build\"",
+    "start": "echo \"skip start\""
   },
   "description": "A Resend extension for EverShop.",
   "repository": {

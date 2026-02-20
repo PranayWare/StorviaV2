@@ -21,7 +21,8 @@
   ],
   "scripts": {
     "compile": "tsc",
-    "build": "echo \"skip build\""
+    "build": "echo \"skip build\"",
+    "start": "echo \"skip start\""
   },
   "author": "The Nguyen (https://evershop.io/)",
   "license": "MIT",

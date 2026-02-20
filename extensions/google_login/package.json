@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc",
-    "build": "echo \"skip build\""
+    "build": "echo \"skip build\"",
+    "start": "echo \"skip start\""
   },
   "repository": {
     "type": "git",

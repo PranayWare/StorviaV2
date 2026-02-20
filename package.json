@@ -1,18 +1,20 @@
 {
   "name": "evershop",
   "version": "1.2.2",
+  "private": true,
   "type": "module",
-  "description": "A shopping cart platform with Express, React and Postgres",
+  "description": "EverShop based ecommerce platform (Storvia)",
   "workspaces": [
     "packages/*",
     "extensions/*",
     "themes/*"
   ],
   "scripts": {
-    "start": "cross-env NODE_ENV=production node ./packages/evershop/dist/bin/start/index.js",
-    "build": "npm run compile && node ./packages/evershop/dist/bin/build/index.js",
-    "compile": "rimraf ./packages/evershop/dist && cd ./packages/evershop && swc ./src/ -d dist/ --config-file .swcrc --copy-files --strip-leading-paths"
-  },
+  "start": "cross-env NODE_ENV=production node ./packages/evershop/dist/bin/start/index.js",
+  "compile:evershop": "rimraf ./packages/evershop/dist && cd ./packages/evershop && swc ./src/ -d dist/ --config-file .swcrc --copy-files --strip-leading-paths",
+  "build:evershop": "npm run compile:evershop && node ./packages/evershop/dist/bin/build/index.js",
+  "build": "npm run build:evershop"
+},
   "dependencies": {
     "@evershop/postgres-query-builder": "^2.0.0",
     "autoprefixer": "^10.4.14",
@@ -52,5 +54,8 @@
     "minimatch": "^10.0.1",
     "prettier": "^3.0.0",
     "webpack-bundle-analyzer": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=18 <23"
   }
 }
