@@ -5,7 +5,8 @@
   "description": "An Evershop extension for product review",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc"
+    "compile": "tsc",
+    "build": "echo \"skip build\""
   },
   "author": "The Nguyen(https://evershop.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0"

@@ -20,7 +20,8 @@
     "README.md"
   ],
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "build": "echo \"skip build\""
   },
   "author": "The Nguyen (https://evershop.io/)",
   "license": "MIT",

@@ -5,7 +5,8 @@
   "description": "A Google authentication extension for EverShop.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc"
+    "compile": "tsc",
+    "build": "echo \"skip build\""
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,8 @@
   "type": "module",
   "description": "A SendGrid extension for EverShop.",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "build": "echo \"skip build\""
   },
   "repository": {
     "type": "git",

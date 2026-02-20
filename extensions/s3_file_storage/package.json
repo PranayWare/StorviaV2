@@ -4,7 +4,8 @@
   "type": "module",
   "description": "An extension for EverShop to use AWS S3 File Storage",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "build": "echo \"skip build\""
   },
   "repository": {
     "type": "git",
