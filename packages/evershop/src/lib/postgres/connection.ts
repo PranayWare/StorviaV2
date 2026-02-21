@@ -47,11 +47,12 @@ switch (sslMode) {
   case 'verify-ca':
   case 'verify-full': {
     const ssl: PoolConfig['ssl'] = {
-      rejectUnauthorized: true
+      rejectUnauthorized: false
     };
     const ca = process.env.DB_SSLROOTCERT;
     if (ca) {
       ssl.ca = safeReadFileAsString(ca);
+      ssl.rejectUnauthorized = true;
     }
     const cert = process.env.DB_SSLCERT;
     if (cert) {
