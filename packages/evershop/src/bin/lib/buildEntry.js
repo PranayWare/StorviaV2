@@ -60,7 +60,7 @@ export async function buildEntry(routes, clientOnly = false) {
 
       let contentClient = `
       import React from 'react';
-      import ReactDOM from 'react-dom';
+      import { hydrateRoot } from 'react-dom/client';
       import { Area } from '@evershop/evershop/components/common';
       import {${
         route.isAdmin ? 'HydrateAdmin' : 'HydrateFrontStore'
@@ -91,13 +91,11 @@ export async function buildEntry(routes, clientOnly = false) {
         .replace(/'---/g, '')
         .replace(/---'/g, '')} `;
       contentClient += '\r\n';
-      contentClient += `ReactDOM.hydrate(
-        ${
-          route.isAdmin
-            ? 'React.createElement(HydrateAdmin, null)'
-            : 'React.createElement(HydrateFrontStore, null)'
-        },
-        document.getElementById('app')
+      contentClient += `hydrateRoot(
+        document.getElementById('app'),
+        React.createElement(${
+          route.isAdmin ? 'HydrateAdmin' : 'HydrateFrontStore'
+        }, null)
       );`;
       if (!fs.existsSync(path.resolve(subPath, 'client'))) {
         await mkdir(path.resolve(subPath, 'client'), { recursive: true });
