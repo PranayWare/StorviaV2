@@ -12,7 +12,7 @@
   "!packages/postgres-query-builder__disabled"
 ],
   "scripts": {
-  "start": "cross-env NODE_ENV=production node ./packages/evershop/dist/bin/start/index.js",
+    "start": "cross-env NODE_ENV=production NODE_CONFIG_DIR=./config node ./packages/evershop/dist/bin/start/index.js",
   "compile:evershop": "rimraf ./packages/evershop/dist && cd ./packages/evershop && swc ./src/ -d dist/ --config-file .swcrc --copy-files --strip-leading-paths",
   "build:evershop": "npm run compile:evershop && node ./packages/evershop/dist/bin/build/index.js",
   "build": "npm run build:evershop"

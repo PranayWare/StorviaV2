@@ -32,4 +32,5 @@ mysqlToPostgres.js
 !/media/.keep
 /config/*
 !/config/.keep
+!/config/production.json
 
