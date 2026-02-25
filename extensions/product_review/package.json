@@ -10,5 +10,10 @@
     "start": "echo \"skip start\""
   },
   "author": "The Nguyen(https://evershop.io/)",
-  "license": "GNU GENERAL PUBLIC LICENSE 3.0"
+  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "dependencies": {
+    "ansi-align": "^3.0.1",
+    "cli-spinners": "^3.4.0",
+    "simple-swizzle": "^0.2.4"
+  }
 }

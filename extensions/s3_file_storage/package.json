@@ -25,6 +25,9 @@
     "node": ">= 14.0.0"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.438.0"
+    "@aws-sdk/client-s3": "^3.438.0",
+    "ansi-align": "^3.0.1",
+    "cli-spinners": "^3.4.0",
+    "simple-swizzle": "^0.2.4"
   }
 }

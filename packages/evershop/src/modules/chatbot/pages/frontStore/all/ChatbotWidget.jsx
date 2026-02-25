@@ -144,17 +144,15 @@ export default function ChatbotWidget({ chatApi }) {
 }
 
 ChatbotWidget.propTypes = {
-  chatApi: PropTypes.string.isRequired
+  chatApi: PropTypes.string
+};
+
+ChatbotWidget.defaultProps = {
+  chatApi: '/api/ai/chat'
 };
 
 export const layout = {
   areaId: 'body',
   sortOrder: 1000
 };
-
-export const query = `
-  query Query {
-    chatApi: url(routeId: "chatbotChat")
-  }
-`;
 

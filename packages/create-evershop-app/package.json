@@ -27,12 +27,15 @@
   },
   "homepage": "https://github.com/evershopcommerce/evershop#readme",
   "dependencies": {
+    "ansi-align": "^3.0.1",
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",
+    "cli-spinners": "^3.4.0",
     "commander": "^9.4.1",
     "cross-spawn": "^7.0.3",
     "fs-extra": "^10.0.0",
     "semver": "^7.6.3",
+    "simple-swizzle": "^0.2.4",
     "validate-npm-package-name": "^4.0.0"
   }
 }

@@ -11,5 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "ansi-align": "^3.0.1",
+    "cli-spinners": "^3.4.0",
+    "simple-swizzle": "^0.2.4"
+  }
 }
