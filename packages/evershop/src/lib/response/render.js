@@ -41,7 +41,9 @@ function renderDevelopment(request, response) {
     graphqlResponse: get(response, 'locals.graphqlResponse', {}),
     propsMap: get(response, 'locals.propsMap', {}),
     widgets: get(response, 'locals.widgets', []),
-    notifications: getNotifications(request)
+    notifications: getNotifications(request),
+    currency: getConfig('shop.currency', 'USD'),
+    language: getConfig('shop.language', 'en')
   };
   const safeContextValue = jsesc(contextValue, {
     json: true,
@@ -99,7 +101,9 @@ function renderProduction(request, response) {
     graphqlResponse: get(response, 'locals.graphqlResponse', {}),
     propsMap: get(response, 'locals.propsMap', {}),
     widgets: get(response, 'locals.widgets', []),
-    notifications: getNotifications(request)
+    notifications: getNotifications(request),
+    currency: getConfig('shop.currency', 'USD'),
+    language: getConfig('shop.language', 'en')
   };
   const safeContextValue = jsesc(contextValue, {
     json: true,

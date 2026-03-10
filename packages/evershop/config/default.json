@@ -1,4 +1,7 @@
 ﻿{
+  "shop": {
+    "currency": "INR"
+  },
   "system": {
     "theme": "nike"
   }
